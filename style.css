@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 body {
   margin: 0;
 }
@@ -51,4 +52,109 @@ a.active {
   font-size: 16px;
   font-weight: 600;
   color: #da3673;
+}
+.banner {
+  height: 500px;
+  padding: 0px 0 80px 100px;
+  background: white;
+  display: flex;
+}
+.banner-img,
+.banner-text {
+  flex: 1;
+}
+.banner-text h3 {
+  padding: 80px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  color: #072c59;
+  font-family: "DM Serif Display", serif;
+}
+.banner-text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  color: #212121;
+  opacity: 0 8;
+}
+.banner-text button {
+  width: 180px;
+  height: 48px;
+  background: #da3673;
+  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 13px 56px;
+  color: white;
+  border: none;
+}
+.banner-img {
+  background: url(images/pexels-andrea-piacquadio-974911.jpg);
+  height: 580px;
+  object-fit: cover;
+  border-radius: 0 0 0 290px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mid {
+  align-items: center;
+  justify-items: center;
+  padding: 120px;
+  margin: center;
+  text-align: center;
+  padding: 13px 56px;
+  gap: 150;
+  /* background: chartreuse; */
+}
+.mid h3 {
+  position: absolute;
+  width: 604px;
+  height: 56px;
+  left: calc(50% - 604px / 2);
+  top: 684px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 56px;
+  align-items: center;
+  text-align: center;
+  color: #072c59;
+}
+.mid p {
+  position: absolute;
+  width: 537px;
+  height: 56px;
+  left: calc(50% - 537px / 2 - 0.5px);
+  top: 790px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  color: #212121;
+}
+.banner span {
+  position: absolute;
+  width: 224px;
+  height: 224px;
+  right: 390px;
+  top: 490px;
+  border-radius: 100%;
+  background: #072c59;
+}
+.two {
+  display: flex;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  top: 425px;
+  right: 600px;
+  background: #da3673;
 }

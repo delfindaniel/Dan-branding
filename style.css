@@ -420,3 +420,45 @@ a.active {
   font-size: 20px;
   line-height: 30px;
 }
+.footer {
+  display: grid;
+  height: 380px;
+  padding: 120px 0 0 0;
+  grid-template-rows: 1fr 40px;
+}
+.blue-bg {
+  background: #072c59;
+}
+.footer-menu {
+  display: grid;
+  grid-template-columns: 1.2fr 2fr 1.3fr;
+  padding: 0 0 0 5%;
+}
+.footer-menu ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.fcircle {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  background: #da3673;
+  color: white;
+}
+.fcircle i {
+  transform: rotate(100deg);
+  margin: right;
+}
+.footer-menu h3 {
+  font-family: "Inter" sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+  color: #072c59;
+}
